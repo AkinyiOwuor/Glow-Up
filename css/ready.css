@@ -1,0 +1,42 @@
+*{
+    overflow-x: hidden;
+    font-family: 'El Messiri', sans-serif;
+}
+#section1{
+    text-align: center;
+    background-color: gray;
+}
+#section2{
+    background-color: azure;
+    text-align: center;
+}
+h1{
+    color: firebrick;
+    text-align: center;
+}
+.add-to-cart{
+margin: 5px 0;
+border-radius: 50px;
+background-color: slateblue;
+}
+p{
+   font-size: 25px;
+   color: maroon;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+}
+#logo{
+    box-sizing: border-box;
+
+}
+#footer{
+    text-align: center;
+    background-color: thistle;
+}
+/* #ttt{
+    text-align: center;
+}
+#fff{
+    text-align: center;
+} */

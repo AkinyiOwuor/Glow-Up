@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GLOW-UP</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="css/ready.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="ready">
+        <div id="section1">
+            <br><br><br>
+            <h1>READY MADE.</h1>
+            <div class="cart" id="sh-cart">
+
+            </div>
+            <div class="col-md-12"> <img src="img/logo.png" width="200px" height="200px" id="logo"></div>
+            <p>GET READY MADE LATEST CLOTHES DESIGNS AT AFFORDABLE PRICE!!!</p>
+            <p>WE ONLY DEAL WITH WOMEN AND LADIES WEAR!!!</p>
+        </div>
+        <div class="container-fluid" id="section2">
+            <div class="row">
+                <div class="col-md-3" id="image">
+                    <img src="img/longtop.jpg">
+                    <h2>Dress</h2>
+                    <h3>Ksh.899</h3>
+                    <button class="add-to-cart" type="button" id="one" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/jeans and stocking.jpg">
+                    <h2>Jeans</h2>
+                    <h3>Ksh.1200</h3>
+                    <button class="add-to-cart" type="button" id="two" onclick="add()">ADD TO CART <i
+                            class="fa fa-cart-plus" style="font-size:30px;color:maroon;"></i>
+                    </button>
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/short1..jpg">
+                    <h2>Longeries</h2>
+                    <h3>Ksh.559</h3>
+                    <button class="add-to-cart" type="button" id="three" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/softcoat.jpg">
+                    <h2>Soft-coat</h2>
+                    <h3>Ksh.2699</h3>
+                    <button class="add-to-cart" type="button" id="four" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="images">
+                    <img src="img/poolover.jpg">
+                    <h2>Poolover</h2>
+                    <h3>Ksh.999</h3>
+                    <button class="add-to-cart" type="button" id="five" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="images">
+                    <img src="img/set.jpg">
+                    <h2>Set-Suit</h2>
+                    <h3>Ksh.3599</h3>
+                    <button class="add-to-cart" type="button" id="six" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="images">
+                    <img src="img/sholder.jpg">
+                    <h2>Off-Sholder</h2>
+                    <h3>Ksh.790</h3>
+                    <button class="add-to-cart" type="button" id="seven" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="images">
+                    <img src="img/coat.jpg">
+                    <h2>Coat</h2>
+                    <h3>Ksh.1199</h3>
+                    <button class="add-to-cart" type="button" id="eight" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="image">
+                    <img src="img/skirt susspend..jpg">
+                    <h2>Kitty-Skirt</h2>
+                    <h3>Ksh.1999</h3>
+                    <button class="add-to-cart" type="button" id="nine" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/suit2.jpg">
+                    <h2>Casual-Suit</h2>
+                    <h3>Ksh.3599</h3>
+                    <button class="add-to-cart" type="button" id="ten" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/tops.jpg">
+                    <h2>Top</h2>
+                    <h3>Ksh.1989</h3>
+                    <button class="add-to-cart" type="button" id="eleven" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3" id="image">
+                    <img src="img/track.jpg">
+                    <h2>Track</h2>
+                    <h3>Ksh.2399</h3>
+                    <button class="add-to-cart" type="button" id="twelve" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/trenchcoat.jpg">
+                    <h2>Trenchcoat</h2>
+                    <h3>Ksh.4500</h3>
+                    <button class="add-to-cart" type="button" id="thirteen" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3">
+                    <img src="/img/materials.jpg">
+                    <h2>Materials</h2>
+                    <h3>Ksh.5999</h3>
+                    <button class="add-to-cart" type="button" id="forteen" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3">
+                    <img src="img/yellow.jpg">
+                    <h2>Yellow-Suit</h2>
+                    <h3>Ksh.4999</h3>
+                    <button class="add-to-cart" type="button" id="fiveteen" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+                <br>
+                <div class="col-md-3">
+                    <img src="img/fendi.jpg">
+                    <h2>Fendi Jacket</h2>
+                    <h3>Ksh.2500</h3>
+                    <button class="add-to-cart" type="button" id="sexteen" onclick="add()">ADD TO CART <i
+                            class="fa fa-shopping-cart" style="font-size:30px;color:maroon;"></i></button>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="footer">
+            <div class="col-md-12">
+                <h1>CONTACT US;</h1>
+                <p>FOR MORE INFORMATION YOU MAY REACH US ON VARIOUS PLATFORMS;</p>
+            </div>
+            <div id="icons">
+                <a
+                    href="https://www.facebook.com/glowup_collection-104990810904210/?__tn__=%2Cd%2CP-R&eid=ARBrT0whztSxVf2hxEJVEkzhEE-2UYAbCWFxtUH4PaBKc1iyNoH0be6Ax8ahTlUCEpmAmuDTw4SecNNz"><img
+                        src="https://img.icons8.com/color/50/000000/facebook-new.png" width="50px" height="50px"></a>
+                <a href="https://www.instagram.com/glowup_collection/"><img
+                        src="https://img.icons8.com/color/64/000000/instagram-new.png" width="50px" height="50px"></a>
+                <br><br>
+                © 2020 Copyright GLOW-UP-Official:
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/ready.js"></script>
+</body>
+
+</html>

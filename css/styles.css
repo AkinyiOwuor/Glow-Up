@@ -1,0 +1,137 @@
+
+body {
+    font-family: poppins;
+}
+header .carousel-inner .item {
+    height: 100vh;
+}
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar-inverse .navbar-brand {
+    color:green;
+    font-size: 30px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+    color: maroon;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: green;
+    text-transform: uppercase;
+}
+.banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+.carousel-caption {
+    padding-bottom: 250px;
+    font-family: poppins;
+    height: 55vh;
+
+}
+.carousel-caption h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(202, 199, 5);
+}
+.carousel-caption h2 span {
+    color: maroon;
+}
+.carousel-caption a {
+    /* background: maroon; */
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    content: '\00bb';
+    outline: none;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:maroon; 
+    background-color: rgb(202, 199, 5);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px black;
+}
+.button:hover {
+    background-color: whitesmoke
+}
+.button:active {
+    background-color:black;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+.carousel-caption a:hover {
+    padding-right: 25px;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-caption.left {
+    background-image: none;
+}
+.carousel-indicators .active {
+    background-color: maroon !important;
+    border-color: maroon;
+}
+.footer {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    color:maroon;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.social-icons a p {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 12px;
+    color: green;
+    margin: 0 10px;
+    min-height: 100px;
+}
+#image{
+    background-image: url('img/latest/20200302_171243.png');
+    background-size:contain ;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/* .logo{
+    float: left; */
+
+ #log1{
+     position: absolute;
+     z-index: 3px;
+     left: 3px;
+    /* margin-right: 1400px;
+    float: left; */
+} 
+.carousel-inner{
+    color: greenyellow;
+}
+.search-container{
+    color: maroon;
+    align-self: center;
+      position: absolute;
+     z-index: 300px;
+     left: 300px;
+}
