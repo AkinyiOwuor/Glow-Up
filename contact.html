@@ -17,33 +17,31 @@
     </div>
     <br><br>
     <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="city">City</label>
-          <select id="city" name="city">
-            <option value="nairobi">Nairobi</option>
-            <option value="kisumu">Kisumu</option>
-            <option value="mombasa">Mombasa</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-          <button type="submit" onclick="finder();"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
+      <form onsubmit="return validationForm()" class="form">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="first-name" placeholder="First name...">
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="second-name" placeholder="Second name...">
+          </div>
+          <div class="col-sm-12" id="text">
+            <textarea class="form-control" id="message" rows="10" cols="100" placeholder="Your message here..."></textarea>
+          </div>
+          <div class="button"><br>
+            <button type="submit" onlick=""class="btn btn-primary" id="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
    
-    <footer>
-        <a href="https://www.facebook.com"><img src="img/facebook.png" alt="fb" id="img8"></a>
-        <a href="https://twitter.com/home"><img src="img/twitter.png" alt="tw" id="img9"></a>
-        <a href="https://www.youtube.com/watch?v=f9Slq2ck7xQ"><img src="img/you_tube.png" alt="yt" id="img10"></a>
-    </footer>
+      <footer>
+        <a href="https://www.facebook.com/glowup_collection-104990810904210/?__tn__=%2Cd%2CP-R&eid=ARBrT0whztSxVf2hxEJVEkzhEE-2UYAbCWFxtUH4PaBKc1iyNoH0be6Ax8ahTlUCEpmAmuDTw4SecNNz"><img src="https://img.icons8.com/color/50/000000/facebook-new.png"
+        width="50px" height="50px"></a>
+        <a href="https://web.whatsapp.com/"><img src="https://img.icons8.com/color/48/000000/whatsapp.png"></a>
+        <a href="https://www.instagram.com/glowup_collection/"><img
+        src="https://img.icons8.com/color/64/000000/instagram-new.png" width="50px" height="50px"></a>
+      </footer>
     </div>
 
     <script src="js/contact.js"></script>
